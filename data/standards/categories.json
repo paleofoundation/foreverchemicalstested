@@ -1,0 +1,610 @@
+{
+  "order": "FCT-STANDARDS-1",
+  "edition": "draft-2026-10-15",
+  "approved": false,
+  "categories": [
+    {
+      "slug": "meat-bovine-pig-poultry",
+      "title": "Meat of bovine animals, pig and poultry",
+      "scope": "Meat of bovine animals, pig and poultry. Keep this matrix distinct from other tissues and processed products.",
+      "source_ids": [
+        "EU-F-01-1",
+        "EU-F-01-2",
+        "EU-F-01-3",
+        "EU-F-01-4",
+        "EU-F-01-5"
+      ],
+      "gap_ids": [
+        "G-01",
+        "G-02",
+        "G-03",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "meat-sheep",
+      "title": "Meat of sheep",
+      "scope": "Meat of sheep. Keep this matrix distinct from other tissues and processed products.",
+      "source_ids": [
+        "EU-F-02-1",
+        "EU-F-02-2",
+        "EU-F-02-3",
+        "EU-F-02-4",
+        "EU-F-02-5"
+      ],
+      "gap_ids": [
+        "G-01",
+        "G-02",
+        "G-03",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "offal-livestock",
+      "title": "Offal of bovine animals, sheep, pig and poultry",
+      "scope": "Offal of bovine animals, sheep, pig and poultry. Keep this matrix distinct from other tissues and processed products.",
+      "source_ids": [
+        "EU-F-03-1",
+        "EU-F-03-2",
+        "EU-F-03-3",
+        "EU-F-03-4",
+        "EU-F-03-5"
+      ],
+      "gap_ids": [
+        "G-01",
+        "G-02",
+        "G-03",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "meat-game",
+      "title": "Game meat except bear",
+      "scope": "Bear meat is excluded.",
+      "source_ids": [
+        "EU-F-04-1",
+        "EU-F-04-2",
+        "EU-F-04-3",
+        "EU-F-04-4",
+        "EU-F-04-5"
+      ],
+      "gap_ids": [
+        "G-01",
+        "G-02",
+        "G-03",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "offal-game",
+      "title": "Game offal except bear",
+      "scope": "Bear offal is excluded.",
+      "source_ids": [
+        "EU-F-05-1",
+        "EU-F-05-2",
+        "EU-F-05-3",
+        "EU-F-05-4",
+        "EU-F-05-5"
+      ],
+      "gap_ids": [
+        "G-01",
+        "G-02",
+        "G-03",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "fish-general",
+      "title": "Fish muscle under Annex I 4.2.2.1.1",
+      "scope": "Also covers muscle of fish listed in 4.2.2.1.2 and 4.2.2.1.3 when intended for infant and young-child food production. Whole-fish basis applies when the fish is intended to be eaten whole.",
+      "source_ids": [
+        "EU-F-06-1",
+        "EU-F-06-2",
+        "EU-F-06-3",
+        "EU-F-06-4",
+        "EU-F-06-5"
+      ],
+      "gap_ids": [
+        "G-01",
+        "G-02",
+        "G-03",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "fish-listed-group-2",
+      "title": "Listed fish muscle under Annex I 4.2.2.1.2",
+      "scope": "Only the species listed in this section and only when not intended for infant and young-child food production. Whole-fish basis applies when intended to be eaten whole. See the species list in docs/SOURCE-REVIEW.md.",
+      "source_ids": [
+        "EU-F-07-1",
+        "EU-F-07-2",
+        "EU-F-07-3",
+        "EU-F-07-4",
+        "EU-F-07-5"
+      ],
+      "gap_ids": [
+        "G-01",
+        "G-02",
+        "G-03",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "fish-listed-group-3",
+      "title": "Listed fish muscle under Annex I 4.2.2.1.3",
+      "scope": "Only the species listed in this section and only when not intended for infant and young-child food production. Whole-fish basis applies when intended to be eaten whole. See the species list in docs/SOURCE-REVIEW.md.",
+      "source_ids": [
+        "EU-F-08-1",
+        "EU-F-08-2",
+        "EU-F-08-3",
+        "EU-F-08-4",
+        "EU-F-08-5"
+      ],
+      "gap_ids": [
+        "G-01",
+        "G-02",
+        "G-03",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "crustaceans-bivalves",
+      "title": "Crustaceans and bivalve molluscs",
+      "scope": "Crustaceans: muscle of appendages and abdomen, excluding cephalothorax. Crabs and similar crustaceans: appendage muscle only. Pecten maximus: adductor muscle and gonad only. Canned crustaceans: entire can contents. Composite-product provisions in Article 3 remain applicable.",
+      "source_ids": [
+        "EU-F-09-1",
+        "EU-F-09-2",
+        "EU-F-09-3",
+        "EU-F-09-4",
+        "EU-F-09-5"
+      ],
+      "gap_ids": [
+        "G-01",
+        "G-02",
+        "G-03",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "eggs",
+      "title": "Eggs",
+      "scope": "Do not silently extend the egg value to formula, dairy or other food matrices.",
+      "source_ids": [
+        "EU-F-10-1",
+        "EU-F-10-2",
+        "EU-F-10-3",
+        "EU-F-10-4",
+        "EU-F-10-5"
+      ],
+      "gap_ids": [
+        "G-01",
+        "G-02",
+        "G-03",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "carpets-rugs",
+      "title": "Carpets and rugs",
+      "scope": "Only items meeting the statutory definition of carpets or rugs; preserve component and medical exclusions. No eligibility is inferred merely from a retail category label.",
+      "source_ids": [
+        "MN-01"
+      ],
+      "gap_ids": [
+        "G-01",
+        "G-04",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "cleaning-products",
+      "title": "Cleaning products",
+      "scope": "Only items meeting the statutory definition of cleaning products; preserve component and medical exclusions. No eligibility is inferred merely from a retail category label.",
+      "source_ids": [
+        "MN-02"
+      ],
+      "gap_ids": [
+        "G-01",
+        "G-04",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "cookware-bakeware",
+      "title": "Cookware and bakeware",
+      "scope": "Only items meeting the statutory definition of cookware; preserve component and medical exclusions. No eligibility is inferred merely from a retail category label.",
+      "source_ids": [
+        "MN-03"
+      ],
+      "gap_ids": [
+        "G-01",
+        "G-04",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "cosmetics",
+      "title": "Cosmetics",
+      "scope": "Only items meeting the statutory definition of cosmetics; preserve component and medical exclusions. No eligibility is inferred merely from a retail category label.",
+      "source_ids": [
+        "MN-04"
+      ],
+      "gap_ids": [
+        "G-01",
+        "G-04",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "dental-floss",
+      "title": "Dental floss",
+      "scope": "Only items meeting the statutory definition of dental floss; preserve component and medical exclusions. No eligibility is inferred merely from a retail category label.",
+      "source_ids": [
+        "MN-05"
+      ],
+      "gap_ids": [
+        "G-01",
+        "G-04",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "fabric-treatments",
+      "title": "Fabric treatments",
+      "scope": "Only items meeting the statutory definition of fabric treatments; preserve component and medical exclusions. No eligibility is inferred merely from a retail category label.",
+      "source_ids": [
+        "MN-06"
+      ],
+      "gap_ids": [
+        "G-01",
+        "G-04",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "juvenile-products",
+      "title": "Juvenile products",
+      "scope": "Only items meeting the statutory definition of juvenile products; preserve component and medical exclusions. No eligibility is inferred merely from a retail category label.",
+      "source_ids": [
+        "MN-07"
+      ],
+      "gap_ids": [
+        "G-01",
+        "G-04",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "menstruation-products",
+      "title": "Menstruation products",
+      "scope": "Only items meeting the statutory definition of menstruation products; preserve component and medical exclusions. No eligibility is inferred merely from a retail category label.",
+      "source_ids": [
+        "MN-08"
+      ],
+      "gap_ids": [
+        "G-01",
+        "G-04",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "textile-furnishings",
+      "title": "Textile furnishings",
+      "scope": "Only items meeting the statutory definition of textile furnishings; preserve component and medical exclusions. No eligibility is inferred merely from a retail category label.",
+      "source_ids": [
+        "MN-09"
+      ],
+      "gap_ids": [
+        "G-01",
+        "G-04",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "ski-wax",
+      "title": "Ski wax",
+      "scope": "Only items meeting the statutory definition of ski wax; preserve component and medical exclusions. No eligibility is inferred merely from a retail category label.",
+      "source_ids": [
+        "MN-10"
+      ],
+      "gap_ids": [
+        "G-01",
+        "G-04",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "upholstered-furniture",
+      "title": "Upholstered furniture",
+      "scope": "Only items meeting the statutory definition of upholstered furniture; preserve component and medical exclusions. No eligibility is inferred merely from a retail category label.",
+      "source_ids": [
+        "MN-11"
+      ],
+      "gap_ids": [
+        "G-01",
+        "G-04",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "drinking-water-tap",
+      "title": "Drinking water from regulated supplies",
+      "scope": "Community and non-transient non-community systems for US source rows. EU water parameters remain unconfirmed from the primary directive. No transfer to bottled water.",
+      "source_ids": [
+        "US-01",
+        "US-02",
+        "US-03",
+        "US-04",
+        "US-05",
+        "US-06",
+        "US-07",
+        "EU-W-01",
+        "EU-W-02"
+      ],
+      "gap_ids": [
+        "G-01",
+        "G-05",
+        "G-06",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "bottled-drinking-water",
+      "title": "Bottled drinking water",
+      "scope": "Finished bottled water, with natural mineral water classification kept separate. Public-system MCLs are not automatically bottled-water law.",
+      "source_ids": [],
+      "gap_ids": [
+        "G-01",
+        "G-07",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "food-packaging-paperboard",
+      "title": "Paper and board food packaging",
+      "scope": "Paper, board and plant-fiber food-contact articles. Migration, bulk organic fluorine and intentional use are separate endpoints.",
+      "source_ids": [
+        "DK-01",
+        "DK-02",
+        "CA-01"
+      ],
+      "gap_ids": [
+        "G-01",
+        "G-04",
+        "G-08",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "food-packaging-other",
+      "title": "Other food packaging",
+      "scope": "Plastic tubs, films, coatings, metal, glass and closures require material-specific review. Paper rules do not establish numeric limits for these materials.",
+      "source_ids": [],
+      "gap_ids": [
+        "G-01",
+        "G-11",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "infant-formula",
+      "title": "Infant formula",
+      "scope": "Powder, concentrated liquid and ready-to-feed formulations remain separate product forms. Neither fish ingredient limits nor tap-water MCLs set a finished-formula ceiling.",
+      "source_ids": [],
+      "gap_ids": [
+        "G-01",
+        "G-11",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "baby-food",
+      "title": "Baby food",
+      "scope": "Finished purees, cereals, snacks and mixed foods. Fish ingredient provisions require separate ingredient and processing review and do not supply a universal finished-food limit.",
+      "source_ids": [],
+      "gap_ids": [
+        "G-01",
+        "G-11",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "dairy",
+      "title": "Dairy and butter",
+      "scope": "Milk, powders, fermented milk, cheese, cream and butter. Do not transfer meat or egg values or dioxin limits into PFAS cells.",
+      "source_ids": [],
+      "gap_ids": [
+        "G-01",
+        "G-11",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "plant-foods",
+      "title": "Plant foods and beverages",
+      "scope": "Produce, cereals, coffee, chocolate and other plant foods. Monitoring or investigation levels are not automatically maximum levels.",
+      "source_ids": [],
+      "gap_ids": [
+        "G-01",
+        "G-11",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "pet-food",
+      "title": "Pet food",
+      "scope": "Dry, wet, raw and other feed products remain separate from food for human consumption.",
+      "source_ids": [],
+      "gap_ids": [
+        "G-01",
+        "G-11",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "textiles-apparel",
+      "title": "Textiles and apparel",
+      "scope": "Clothing and outdoor apparel are not automatically textile furnishings or fabric treatments. Broader textile legislation is not exhaustively reviewed here.",
+      "source_ids": [],
+      "gap_ids": [
+        "G-01",
+        "G-12",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "oral-care-other",
+      "title": "Toothpaste and other oral care",
+      "scope": "Finished toothpaste and oral-care products other than dental floss. Cosmetic, drug and medical classifications require product-specific review.",
+      "source_ids": [],
+      "gap_ids": [
+        "G-01",
+        "G-12",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    },
+    {
+      "slug": "baby-personal-care",
+      "title": "Baby wipes, lotions and sunscreens",
+      "scope": "Formulation and intended use determine cosmetic, drug or other classification. No blanket import of a cosmetics prohibition or paper indicator.",
+      "source_ids": [],
+      "gap_ids": [
+        "G-01",
+        "G-12",
+        "G-09",
+        "G-10",
+        "G-14"
+      ],
+      "ics_ceiling": null,
+      "status": "draft_on_hold"
+    }
+  ]
+}
