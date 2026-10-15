@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "source_rows": 73,
+  "record_types": {
+    "numeric_limit": 56,
+    "no_individual_limit": 1,
+    "unconfirmed_limit": 3,
+    "product_ban": 12,
+    "indicator": 1
+  },
+  "numeric_value_rows": 57,
+  "empty_TODO_value_rows": 3,
+  "category_pages": 33,
+  "tracked_gaps": 14,
+  "approved_ics_ceilings": 0,
+  "errors": []
+}
